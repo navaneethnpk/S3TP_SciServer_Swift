@@ -1,0 +1,14 @@
+chatter 5
+data ./00035905082_OP/sw00035905082xpcw3posr.pha
+response /home/idies/workspace/headata/FTP/caldb/data/swift/xrt/cpf/rmf/swxpc0to12s6_20130101v014.rmf
+arf ./00035905082_OP/sw00035905082xpcw3posr.arf
+setplot energy
+ignore **-0.3 10.2-**
+setplot rebin 2 200
+setplot command " cpd ./00035905082_OP/sw00035905082xpcw3poph.gif/gif"
+setplot command "time off"
+setplot command "la t Energy spectrum(sw00035905082xpcw3posr.pha)"
+setplot command "la f"
+plot ldata
+quit
+y
