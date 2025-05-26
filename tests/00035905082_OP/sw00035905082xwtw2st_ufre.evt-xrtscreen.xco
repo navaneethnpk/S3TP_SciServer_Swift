@@ -1,0 +1,13 @@
+xsel11905
+read event
+./00035905082_OP
+sw00035905082xwtw2st_ufre.evt
+yes
+filter time file ./00035905082_OP/sw00035905082xwtw2st_clgti.fits
+filter grade "0-2"
+extract events
+yes
+save events ./00035905082_OP/xselect11906evt.flt
+yes
+quit
+no
